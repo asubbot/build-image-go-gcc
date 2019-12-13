@@ -10,4 +10,4 @@ RUN apt-get update && apt-get install --no-install-recommends -y golang-go
 
 # Install GCC/G++ tools 
 RUN apt-get install -y --no-install-recommends \
-    git cmake gcc g++ libssl-dev qtbase5-dev qtdeclarative5-dev libqt5svg5-dev qttools5-dev
+    git gcc g++ libssl-dev qtbase5-dev qtdeclarative5-dev libqt5svg5-dev qttools5-dev cmake
