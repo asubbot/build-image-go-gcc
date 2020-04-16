@@ -15,4 +15,4 @@ RUN apt-get install -y --no-install-recommends \
     gcc g++ libssl-dev qtbase5-dev qtdeclarative5-dev libqt5svg5-dev qttools5-dev
 
 # Install cmake without "--no-install-recommends" option
-RUN apt-get install -y cmake git
+RUN apt-get install -y cmake make git
