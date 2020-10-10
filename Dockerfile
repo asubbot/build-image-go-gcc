@@ -15,4 +15,7 @@ RUN apt-get install -y --no-install-recommends \
     gcc g++ libssl-dev qtbase5-dev qtbase5-private-dev qtdeclarative5-dev libqt5svg5-dev qttools5-dev
           
 # Install cmake without "--no-install-recommends" option
-RUN apt-get install -y cmake make git
+RUN apt-get install -y cmake
+
+# Install debian packages tools
+RUN apt-get install -y gettext-base chrpath
