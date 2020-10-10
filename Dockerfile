@@ -16,4 +16,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN apt-get update && apt-get install -y cmake make
 
 # Install debian packages tools
-RUN aapt-get update && pt-get install -y gettext-base chrpath
+RUN apt-get update && apt-get install -y gettext-base chrpath
